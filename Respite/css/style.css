@@ -1,0 +1,95 @@
+/*=========================*/
+/*NAVIGATION BAR*/
+/*==========================*/
+.navbar {
+	background-color: black;
+	color: white;
+}
+.navbar a{
+	color: white;
+}
+.navbar .fa {
+	font-size: 2em;
+}
+#leavebtn {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+/*=====================*/
+/*GENERAL*/
+/*=====================*/
+section a {
+	color: white;
+	text-decoration: underline;
+}
+section {
+	color:white;
+}
+
+/*=====================*/
+/*Home Section*/
+/*=====================*/
+#home-section {
+	background-image: url("../img/balloons.jpg");
+}
+#home-jumbotron {
+	margin-top: 160px;
+	margin-bottom: 150px;
+	text-align: center;
+	background-color: rgba(22, 19, 19, 0.5);
+	color: white;
+}
+#home-jumbotron a {
+	display: block;
+	color: white;
+}
+
+/*=======================*/
+/*Stay Safe*/
+/*=======================*/
+#staysafe-section {
+	background-color: black;
+}
+
+#staysafe-section article {
+	margin-top: 15%;
+	margin-bottom: 15%;
+	color: white;
+	text-align: center;
+}
+
+
+/*=======================*/
+/*Protective Order*/
+/*=======================*/
+#protectiveorder-section {
+	background-image: url("../img/justice.jpg");
+}
+#protectiveorder-jumbotron {
+	margin-top: 140px;
+	margin-bottom: 140px;
+	text-align: center;
+	background-color: rgba(22, 19, 19, 0.5);
+	color: white;
+}
+
+/*=======================*/
+/*Browser Safety*/
+/*=======================*/
+#browsersafety-section {
+	background-color: black;
+}
+#browsersafety-section article {
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+
+/*======================
+BACKGROUND
+========================*/
+.sized-background {
+	background-size: cover;
+	background-repeat: no-repeat;
+}

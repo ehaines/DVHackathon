@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+		<!-- Bootstrap Latest compiled and minified CSS -->
+		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+
+		<!-- Optional Bootstrap theme -->
+		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
+
+		<!--FontAwesome-->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<!-- ////////////////////////////////////////////////
+		 //// CUSTOM CSS FILES HERE
+		 ///////////////////////////////////////////////////// -->
+		<link type="text/css" href="css/style.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- js-cookie -->
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.0.2/js.cookie.min.js"></script>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/additional-methods.min.js"></script>
+
+		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
+		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<title>Weather Underground</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="btn btn-warning btn-sm" id="leavebtn" href="http://www.wunderground.com/">Leave Page!</a>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsed">
+							<span class="sr-only">Main Menu</span>
+							<i class="fa fa-navicon"></i>
+						</button>
+
+					</div>
+					<div class="collapse navbar-collapse" id="navbar-collapsed">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#home-section">Home</a></li>
+							<li><a href="#staysafe-section">Stay Safe</a></li>
+							<li><a href="#protectiveorder-section">Protective Order</a></li>
+							<li><a href="#browsersafety-section">Browser Safety</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<section id="home-section" class="container-fluid sized-background">
+			<div class="jumbotron col-md-8 col-md-offset-2" id="home-jumbotron">
+				<p>There is something heroic about you, because you’ve known pain, and defeat.
+					You’ve suffered and lost. But you’ve made it. You passed the finish line.
+					The hardest part is over, and what is coming is so much better than what
+					has gone. So smile, stand tall, and find meaning in your struggle.
+				</p>
+				<p>
+					Do not give up on yourself, because you’re worth it. You’re on this
+					site for a reason, so use it, and get one step closer to your freedom.
+				</p>
+				<div id="staysafe-col" class="col-md-4">
+					<img src="img/Home.png">
+					<a href="#staysafe-section">Stay Safe</a>
+				</div>
+				<div id="protectiveorder-col" class="col-md-4">
+					<img src="img/Help.png">
+					<a href="#protectiveorder-section">Protective Orders</a>
+				</div>
+				<div id="browsersafety-col" class="col-md-4">
+					<img src="img/Computer.png">
+					<a href="#browsersafety-section">Browser Safety</a>
+				</div>
+			</div>
+
+		</section>
+		<section id="staysafe-section" class="container-fluid">
+			<article class="col-md-4 col-md-offset-4">
+				<h3>
+					<a href="https://lawhelpinteractive.org/Interview/InterviewHome?templateId=5040">Safety Plan</a>
+				</h3>
+				<p>Developing your sustainability plan through personal security, finding a place to stay,
+					where to get some help with money and food, where to get legal information and advice
+					and where to get information about transportation.
+				</p>
+			</article>
+
+		</section>
+		<section id="protectiveorder-section" class="container-fluid sized-background">
+			<div class="jumbotron col-md-6 col-md-offset-3" id="protectiveorder-jumbotron">
+				<h3>
+					<a href="https://lawhelpinteractive.org/Interview/InterviewHome?templateId=5042">Protective Orders</a>
+				</h3>
+				<p>
+					A plain language interview that will ask you a series
+					of questions in order to gather the information that we
+					need to fill in the blanks for the protective order.
+				</p>
+			</div>
+
+		</section>
+		<section id="browsersafety-section" class="container-fluid">
+			<article class="col-md-8 col-md-offset-2">
+				<h3>Browser Safety Tips</h3>
+				<h5>How to search the internet safely.</h5>
+				<p>It is common for an abuser to try to control your access to information by checking your computer
+					and phone to see where you have been on the Internet. You can protect yourself by keeping
+					your Web browser from storing any of this information or by erasing it.
+				</p>
+				<p>
+					To keep your browser from storing the information,
+					you can put it into private or incognito mode. Here is how you do that for different browsers:
+				</p>
+				<ul>
+					<li>IE 9 – choose Incognito Browsing from the Safety menu (AltS)</li>
+					<li>IE 8 – choose In Private Browsing from the Safety menu or (CtrlShiftP)</li>
+					<li>Mozilla Firefox – from the menu choose New Private Window and then type
+						in your URL (Web address). From a link, right click on the link and choose
+						Open Link in New Private Window. </li>
+					<li>Chrome – from menu select New Incognito Window or push CtrlShiftN. </li>
+				</ul>
+				<p>
+					If you have already been searching the Web, you can clear your search history
+					by pushing CtrlShiftDelete in Windows or CommandShiftDelete in its (MAC).
+				</p>
+				<a href="https://kb.iu.edu/d/ahic">Details and instructions for mobile phones</a>
+			</article>
+
+		</section>
+	</body>
+</html>
